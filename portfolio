@@ -1,0 +1,356 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Prashant Gupta Portfolio
+    </title>
+    <link rel="shortcut icon" href="/pg1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(22, 4, 62);
+            margin: 0px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            background-color: blue;
+            align-items: center;
+            color: aqua;
+        }
+
+        nav li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: aqua;
+        }
+
+        nav ul a:hover {
+            color: rgb(255, 255, 255);
+            /* font-size: 1.02rem; */
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        #port {
+            color: rgb(249, 205, 5);
+        }
+
+        .allside {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+            align-items: center;
+        }
+
+        .allside>div {
+            width: 30%;
+        }
+
+        .leftside {
+
+            /* background-color: brown; */
+            font-size: 1.9rem;
+            color: azure;
+        }
+
+        .leftside .button {
+            border: 2px solid white;
+            padding: 5px 9px;
+            background: rgb(129, 3, 247);
+            color: white;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+        .leftside .button:hover{
+            background:  rgb(28, 8, 46);
+        }
+
+        .leftside .plank {
+            padding: 15px;
+        }
+
+        .rightside {
+
+            /* background-color: brown;. */
+        }
+
+        .pic {
+            /* height: 50%; */
+            width: 90%;
+            margin: -30px;
+        }
+
+        .high {
+            color: rgb(165, 84, 241);
+            font-size: 2.8rem;
+        }
+
+        #element {
+            color: rgb(165, 84, 241);
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(76, 10, 181);
+            height: 2px;
+            margin: 20px 84px;
+        }
+
+        .work {
+            margin: auto;
+            max-width: 80vw;
+            margin-top: 20 px;
+        }
+
+        .work h2 {
+            font-size: 1.8rem;
+        }
+        .allex{
+            justify-content: space-evenly;
+            display: flex;
+            padding: 20px 20px 90px 20px;
+        }
+        .html{
+            border: 2px solid white;
+            /* padding: 100px ; */
+            height: 200px;
+            width: 250px;
+            background: rgb(50, 27, 100);
+            color: white;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 1.1rem;
+        }
+        .html:hover{
+            background: rgb(129, 3, 247) ;
+        }
+        .content{
+            font-size: 0.9rem;
+            text-align: justify;
+            font-family: sans-serif;
+            padding-right: 20px;
+            padding-top: 10px;
+        }
+        .btn{
+            border: 2px solid white;
+            padding: 3px 7px;
+            background: rgb(22, 4, 107);
+            color: white;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+
+        }
+        .diwork{
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+        .btn:hover{
+            background: rgb(26, 1, 50);
+        }
+
+        footer {
+            background-color: blueviolet;
+        }
+        
+        .footer {
+            display: flex;
+            padding: 23px 122px 10px 122px;
+            justify-content: space-evenly;
+            
+        }
+
+        .footer h2 {
+            font-size: 1.2rem;
+        }
+        .footer > div{
+            width: 230px;
+        }
+        .twofoot ul a {
+            text-decoration: none;
+            color: rgb(22, 4, 62);
+        }
+        .twofoot ul a:hover{
+            color: aliceblue;
+        }
+        .twofoot li {
+            list-style: none;
+        }
+
+        .threefoot li {
+            list-style: none;
+        }
+
+        .fourfoot ul a {
+            text-decoration: none;
+            color: rgb(22, 4, 62);
+        }
+        .fourfoot ul a:hover{
+            color: aliceblue;
+        }
+        .fourfoot li {
+            list-style: none;
+        }
+
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        footer .copy{
+            text-align: center;
+            padding: 10px;
+            color: antiquewhite;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div class="left">
+                Prashant <span id="port">Gupta</span>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="www.google.com">Home</a></li>
+                    <li><a href="www.google.com">About</a></li>
+                    <li><a href="www.google.com">Projects</a></li>
+                    <li><a href="www.google.com">Services</a></li>
+                    <li><a href="www.google.com">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="allside">
+            <div class="leftside">
+                Hii, my name is <span class="high">Prashant Gupta</span>.
+                <div>I am working as intern in Bharat Intern.</div>
+                <div>I am a
+                    <span id="element"></span>
+                </div>
+                <div class="plank">
+                    <button class="button">LinkedIN</button>
+                    <button class="button">Resume</button>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="rightside">
+                <img src="/png.png" alt="profile pic" class="pic">
+            </div>
+        </section>
+
+        <hr>
+        <section class="work">
+            <h2>Work Experience</h2>
+            <div  class="allex">
+                <div class="html">
+                    <div>>/></div>
+                    <div>Html</div>
+                    <div class="content">I have a extreme knowledge of Html. It is use to give structure to the web pages.</div>
+                    <div class="diwork"> 
+                        <button class="btn">See more..</button>
+                    </div>
+                </div>
+                <div class="html">
+                    <div>CSS</div>
+                    <div>Cascading Style Sheet</div>
+                    <div class="content">I have a endorse knowledge of the Css. I use it for styling the web pages.</div>
+                    <div class="diwork"> 
+                        <button class="btn">See more..</button>
+                    </div>
+                </div>
+                <div class="html">
+                    <div>Ps</div>
+                    <div>Photoshop</div>
+                    <div class="content">I have a endorse knowledge of Photoshop. I design a poster for E-Cell MMMUT.</div>
+                    <div class="diwork"> 
+                        <button class="btn">See more..</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="onefoot">
+                <h2> Prashant Gupta Portfolio</h2>
+            </div>
+            <div class="twofoot">
+                <ul>
+                    <li><a href="www.google.com">Coder</a></li>
+                    <li><a href="www.google.com">Video Editor</a></li>
+                    <li><a href="www.google.com">Web Developer</a></li>
+                    <li><a href="www.google.com">Photoshop</a></li>
+                </ul>
+            </div>
+            <div class="fourfoot">
+                <ul>
+                    <li><a href="www.google.com">Instagram</a></li>
+                    <li><a href="www.google.com">Facebook</a></li>
+                    <li><a href="www.google.com">Gmail</a></li>
+                    <li><a href="www.google.com">LinkedIN</a></li>
+                </ul>
+            </div>
+            <div class="threefoot">
+                <ul>
+                    <li><img src="/instagram (2).png" class="icon"></li>
+                    <li><img src="/facebook (2).png" class="icon"></li>
+                    <li><img src="/logo-gmail-9952.png" class="icon"></li>
+                    <li><img src="/linkedin-logo-png-1853.png" class="icon"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            Copyright © 2023 | All Rights Reserved By Prashant Gupta
+        </div>
+        
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor.', 'Photoshoper.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
